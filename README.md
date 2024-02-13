@@ -18,17 +18,18 @@ Em seguida, conecte o recurso de serviços de IA do Azure criado no passo anteri
 
 [Para mais detalhes clique aqui.](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/05-ocr.html#connect-your-azure-ai-service-resource-to-vision-studio)
 
-**3- Extrair texto de imagens no Vision Studio**
+**3 - Extrair texto de imagens no Vision Studio**
 
 Na página inicial do Vision Studio clicaremos em **Introdução ao Vision**, selecionaremos **Reconhecimento óptico de caracteres** e no bloco **Extrair texto de imagens**, clicaremos em **Experimente**.
 
 Nesta página vamos "Procurar um arquivo"  naveguando até a pasta no computador em que se encontram os arquivos de imagem que iremos trabalhar.
 
-**Resultados**
+**4 - Resultados**
 
 Vamos trabalhar com a imagem de um atestado, a razão de sua escolha é pelo fato de ele conter caracteres impressos em formato conhecido como letra de forma e letras escritas a mão tipo cursiva.
 
 
 
+![imagem do json](/inputs/Atestado.jpg)
 
 Saiba Mais
