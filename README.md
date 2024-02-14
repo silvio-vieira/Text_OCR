@@ -24,12 +24,24 @@ Na página inicial do Vision Studio clicaremos em **Introdução ao Vision**, se
 
 Nesta página vamos "Procurar um arquivo"  naveguando até a pasta no computador em que se encontram os arquivos de imagem que iremos trabalhar.
 
-**4 - Resultados**
+**4 - Testando**
 
 Vamos trabalhar com a imagem de um atestado, a razão de sua escolha é pelo fato de ele conter caracteres impressos em formato conhecido como letra de forma e letras escritas a mão tipo cursiva.
 
 
+![imagem original](/inputs/Atestado.jpg)
 
-![imagem do json](/inputs/Atestado.jpg)
+**5 - Resultados**
 
-Saiba Mais
+Na imagem a seguir apresentamos uma captura de tela com a imagem original e os resultados obtidos.
+
+![imagem original](/inputs/tela_inputs.png)
+
+Em **Detected Atributes** são exibidos os textos extraídos da imagem e na aba JSON são exibidos nesse formato os atributos (coordenadas) dos poligonos que envolvem o texto.
+
+Observamos que o texto referente a palavra Vieira, escrito em letra cursiva, não foi corretamente extraído, sendo que este conta com um nível de confiaça baixo, como pode ser visto no fragmento do JSON exibida a seguir:
+
+
+![imagem original](/inputs/text_json.png)
+          
+Nota-se que que o valor de confiança é de 0,529, portanto, essa é uma informação muito importante pois, a partir dela podemos aferir o grau de acurácia na extração dos termos da imagem.
