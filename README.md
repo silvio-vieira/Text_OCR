@@ -45,3 +45,7 @@ Observamos que o texto referente a palavra Vieira, escrito em letra cursiva, nã
 ![imagem original](/inputs/text_json.png)
           
 Nota-se que que o valor de confiança é de 0,529, portanto, essa é uma informação muito importante pois, a partir dela podemos aferir o grau de acurácia na extração dos termos da imagem.
+
+**Para saber mais**
+
+Para saber mais sobre o que você pode fazer com esse serviço, consulte a documentação do Azure AI Vision sobre [reconhecimento óptico de caracteres](https://learn.microsoft.com/azure/ai-services/computer-vision/overview-ocr)
